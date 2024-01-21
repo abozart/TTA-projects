@@ -19,6 +19,30 @@
             #freud{
                 font-weight: normal;
             }
+            blockquote:before {
+            position: absolute;
+            content: open-quote;
+            font-size: 4em;
+            margin-left: -0.6em;
+            margin-top: -0.4em;
+            }
+            blockquote:after {
+            position: absolute;
+            content: close-quote;
+            font-size: 4em;
+            bottom: 0;
+            right: 0;
+            margin-right: -0.6em;
+            margin-bottom: -0.8em;
+            }
+            blockquote {
+                position: relative;
+                /* background: #ddd; */
+            }
+
+            blockquote p {
+                display: inline;
+            }
         </style>
     </head>
     <body>
@@ -32,6 +56,9 @@
         <main>
 
         <h1 id="freud"><span class="bold italic">Freud</span> was weeeeird.</h1>
+        <blockquote cite="https://www.themost10.com/engrossing-sigmund-freud-quotes/">
+            <p>Words have a magical power. They can bring either the greatest happiness or deepest despair; they can transfer knowledge from teacher to student; words enable the orator to sway his audience and dictate its decisions. Words are capable of arousing the strongest emotions and prompting all men’s actions.</p>
+        </blockquote>
         <h3><p class="underline">Emphasised terms.</p></h3>
         <h6 id="dodoBird" class="overline">Dodo Bird</h6>
         </main>
