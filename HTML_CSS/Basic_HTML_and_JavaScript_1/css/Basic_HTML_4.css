@@ -1,15 +1,25 @@
 .font_1{
-background-color: black;
-color: yellow;
-font-size: largest;
+    background-color: black;
+    color: yellow;
+    font-size: largest;
 }
 
 .font_2{
-background-color: darkblue;
-color:white;
-font-size: medium;
+    background-color: darkblue;
+    color:white;
+    font-size: medium;
+    font-weight:normal;
 }
 
 h4.font_1{
-font-size:smaller;
+    font-size:smaller;
+    text-decoration: overline underline;
+
+}
+
+p.my_style{
+    background-color: burlywood;
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
