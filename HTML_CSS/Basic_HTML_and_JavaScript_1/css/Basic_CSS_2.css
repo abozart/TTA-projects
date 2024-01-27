@@ -1,6 +1,18 @@
 p{
 	color:snow;
-	background: black;
+	background: rgb(176, 176, 176);
 	font-weight: bold;
 	text-align: center;
+	font-size: 22px;
+}
+
+p:first-child:after {
+    content: ' \00AE';
+}
+p:nth-child(2){
+	text-shadow: 2px 2px #294cb7d9;
+}
+
+p:last-child:before{
+	content: ' \00B1';
 }
