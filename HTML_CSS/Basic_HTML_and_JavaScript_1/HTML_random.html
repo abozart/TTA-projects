@@ -24,11 +24,20 @@
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+header, summary, article, #Video Section{
+    padding: 3em;
+    vertical-align: middle;
+    text-align: center;
+}
 </style>
 </head>
-<body style="background-color:#000; color:white;"></body>
+<body style="background-color:#000; color:white;">
+    <header style="background-color: gold; color:black;">
+        <span><a href="#Summary Section">Summary</a> | <a href="#Article Section">Article</a> | <a href="#Video Section">Video</a></span>
+    </header>
     <details>
-    <summary>Final journey for the last space shuttle...</summary>
+    <summary id="Summary Section">Final journey for the last space shuttle...</summary>
     <p>
         <pre>
             The final journey for the last space shuttle ever built is complete.
@@ -59,8 +68,13 @@
     <p><font size="10" color="cyan"><em>MY NAME IS</em></font></p>
     <p><font size="4"><a href="https://yahoo.com" target="new">LINK LINK LINK</a></font></p>
 
-    <article>Here is another article about the space shuttle... (Created on  <em><time datetime="2024-01-22 22:00">2024-01-22 22:00</time></em>)</article>
+    <article id="Article Section">Here is another article about the space shuttle... (Created on  <em><time datetime="2024-01-22 22:00">2024-01-22 22:00</time></em>)</article>
 
-
+    <div id="Video Section" style="width: 100%; text-align: center;">
+        <video width="400" controls>
+            <source src="./media/Frenchie.mp4" type="video/mp4">
+            Looks like your browser does not support the video tag-- Use Firefox!
+        </video>
+    </div>
 </body>
 </html>
