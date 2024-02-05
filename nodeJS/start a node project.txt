@@ -1,0 +1,9 @@
+Hello World
+
+Let's get started by creating the simplest Node.js application, "Hello World".
+
+Create an empty folder called "hello", navigate into and open VS Code:
+
+mkdir hello
+cd hello
+code .
