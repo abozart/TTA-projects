@@ -1,0 +1,24 @@
+header
+Home section
+section with images
+contact form
+video section
+footer
+
+
+Neurons in the Body
+
+
+Header -> Home | Gallery | Contact
+Home
+  Did you know there are 500million neurons in your gut? Cause there is!
+Gallery
+  Photos of neurons in different places
+    stomach, brain, etc.
+Contact
+  Form to contact me to ask where neurons might be in other places
+Footer -> Copyright Me 2024 | Terms of Use
+
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?E1EE34787C87E6FF469EA4B2E2DD6EF76A67
