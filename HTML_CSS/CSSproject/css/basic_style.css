@@ -74,8 +74,6 @@ h1{
     HOVER, TRANSLATE & TRANSFORM EFFECTS
 ----------------------------------------*/
 .container .squares:nth-child(-n+8):hover{
-    color: white;
-
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
