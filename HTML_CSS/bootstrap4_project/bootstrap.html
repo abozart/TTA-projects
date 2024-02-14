@@ -34,6 +34,15 @@
         text-align: center;
         border-radius: 8px 8px 8px 8px;
       }
+
+      #showtimes img{
+        max-height: 200px;
+        max-width: 300px;
+      }
+      
+      .em{
+        font-style: italic;
+      }
     </style>
     <title>Academy Cinemas</title>
   </head>
@@ -44,13 +53,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-light" href="#">About</a>
+            <a class="nav-link text-light" href="#about">Accomodations</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link text-light" href="#">Showtimes</a>
+            <a class="nav-link text-light" href="#showtimes">Showtimes</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link text-light" href="#">Deals</a>
+            <a class="nav-link text-light" href="#rewards">Rewards</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -67,18 +76,17 @@
           <p class="lead">Sit back, relax, and enjoy the show.</p>
         </div>
       </div>
-
-      
     </main>
 
-    <div class="container">
+    
+    <div class="container" id="about">
       <div class="row">
         <div class="col-sm">
             <img class="image-fluid" src="./img/PortlandSign.jpg" alt="" width="400px">
         </div>
         <div class="col-sm">
             <h3>Accomodations</h3>
-            <p>Located in beautiful Portland, Oregon's Pear district, our reels have been spinning since 1959.</p>
+            <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
             <p>Showing our guests a great time is our passions and seeing thier smiles is our pleasure!</p>
             <p>All our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
             <p>Relax in our extra-wide, plush cusioned recliners. Our seating arrangement is disability friendly. &#9855;</p>
@@ -92,25 +100,91 @@
         </div>
       </div>
 
-      <form class="text-center">
-        <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
-        <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      <!-- START Showtimes -->
 
+      <section id="showtimes" class="container my-5">
+
+        <div class="container">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h3>Fight Club (1999)</h3>
+              </div>
+              <div class="card-body">
+                
+                <ul class="list-unstyled mt-3 mb-4">           
+                  <img class="image-fluid" src="./img/movie1.png" alt=""">
+                  <li class="em">Brad Pitt, Edward Norton, Helena Bonham Carter, Meat Loaf</li>
+                  <li>A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue 
+                    his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), 
+                    another fake attendee of support groups, his life seems to become a little more bearable. However 
+                    when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club 
+                    and soap making scheme. Together the two men spiral out of control and engage in competitive 
+                    rivalry for love and power.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h3 class="my-0 font-weight-normal">Road Trip (2000)</h3>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">           
+                  <img class="image-fluid" src="./img/movie2.png" alt=""">
+                  <li class="em">Breckin Meyer, Seann William Scott, Amy Smart, Tom Green, Andy Dick</li>
+                  <li>Josh and Tiffany have been together since they were kids. ENTER Beth, a sexy blonde going to 
+                    college with Josh. One night, Josh and Beth hook up and make a videotape the same day that Josh 
+                    plans to mail a video to Tiffany of him talking about college life. The wrong tape gets sent, 
+                    forcing Josh, along with a few pals, to go to Austin, where Tiffany is, and stop her from seeing 
+                    the tape. Full of laughs, you'll be sure to enjoy Road Trip.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Dune (2017)</h4>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">           
+                  <img class="image-fluid" src="./img/movie3.png" alt=""">
+                  <li class="em">Timothée Chalamet, Rebecca Ferguson</li>
+                  <li>A mythic and emotionally charged hero's journey, "Dune" tells the story of Paul Atreides, a 
+                    brilliant and gifted young man born into a great destiny beyond his understanding, who must 
+                    travel to the most dangerous planet in the universe to ensure the future of his family and his 
+                    people. As malevolent forces explode into conflict over the planet's exclusive supply of the 
+                    most precious resource in existence-a commodity capable of unlocking humanity's greatest 
+                    potential-only those who can conquer their fear will survive. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Showtimes -->
+
+      <section id="rewards">
+        <form class="text-center">
+          <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
 
       <div id="footer" class="container my-5">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <small><a class="nav-link text-light" href="#">Movie Rewards</a></small>
+            <small><a class="nav-link text-light" href="#about">Accomodations</a></small>
           </li>
           <li class="nav-item">
-            <small><a class="nav-link text-light" href="#">movies@news.org</a></small>
+            <small><a class="nav-link text-light" href="#rewards">Movie Rewards</a></small>
           </li>
           <li class="nav-item">
-            <small><a class="nav-link text-light" href="#">info@academycinemas.com</a></small>
+            <small><a class="nav-link text-light" href="mailto:movies@news.org">movies@news.org</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="mailto:info@academycinemas.com">info@academycinemas.com</a></small>
           </li>
           <li class="nav-item">
             <small>&copy; 2019-2029 Academy Cinemas</small>
