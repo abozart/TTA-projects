@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hello, world!</title>
+
+    <style>
+      body{
+        padding-top:0;
+        margin-top: 0;
+        padding-bottom: 2.5em;
+      }
+        .container{
+          padding: 10px;
+        }
+        .center{
+            display: block;
+            margin-top: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .center2{
+          margin: auto;
+          width: 350px;
+          border: 3px solid green;
+          padding: 10px;
+        }
+
+        img{
+            border-radius: 1em 1em 1em 1em;
+            filter: drop-shadow(8px 8px 10px rgb(113, 1, 1)) contrast(200%);
+        }
+
+        footer{
+          text-align: center;
+          background-color: rgb(211, 211, 211);
+          position: fixed;
+          bottom:0;
+          left: 0;
+          width: 100%;
+          font-size: 1em;
+        }
+        footer span{
+          font-weight: 900;
+        }
+
+        table{
+          padding: 1em;;
+          border: 1px solid red;
+          width: 100%;
+        }
+
+        td{
+          padding: .5em;
+          border: 1px solid #ff7474;
+        }
+
+        th{
+          background-color: blue;
+          color: white;
+        }
+
+        tr:nth-child(even){
+          background-color: #eee;
+        }
+
+        .container2{
+            position: relative;
+            text-align: center;
+            color: white;
+            padding:10px;
+            margin: 10px;
+        }
+        .centerText{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-weight: 900;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+        <img src="./img/baby-rac.jpg" alt="Baby Raccoon" class="center" style="width:300px">
+    </div>
+
+    <div class="container center2">
+      <table>
+        <tr>
+          <th>Animal</th>
+          <th>Appendages</th>
+          <th>Eyeballs</th>
+        </tr>
+        <tr>
+          <td>Frog</td>
+          <td>4</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Octopus</td>
+          <td>11</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Spider</td>
+          <td>8</td>
+          <td>800</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container2">
+      <img src="./img/baby-rac.jpg" alt="" style="width:30%">
+      <div class="centerText">Hey, I'm very centered!</div>
+    </div>
+
+    <footer class="container">
+      <span>Link 1 | Link 2 | Link 3 &nbsp;&nbsp;&nbsp; &copy;Bananza Co 1999</span>
+    </footer>
+
+  </body>
+</html>
