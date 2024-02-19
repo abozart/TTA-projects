@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hello, world!</title>
+
+        <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            border: 0px solid green; 
+        }
+        .center{
+            display: block;
+            margin-top: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+
+        .center2{
+            margin: auto;
+            width: 350px;
+            border: 3px solid green;
+            padding: 10px;
+        }
+
+
+        .video-overlay {
+            display: flex;
+            position: absolute;
+            margin: 0;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+                z-index: 400;
+
+        }
+        .video-overlay h2 {
+            background: #000 none repeat scroll 0 0;
+            color: tan;
+            font-weight: 600;
+            margin: 2rem 3rem 0;
+            mix-blend-mode: overlay;
+            padding: 5px 15px;
+
+        }
+
+        video{
+            opacity: 1;
+        }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+        <video class="center" src="./video/frenchie.mp4" controls poster="dossierimage/imagex.jpg" height="500">⁪</video>
+        <div class="video-overlay">
+            <h2>Meet the crazy pup~!</h2>
+        </div>
+    </div>
+
+  </body>
+</html>
